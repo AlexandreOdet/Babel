@@ -1,0 +1,1406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/ -f client.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		6672A7B297A145A34D6686B9 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/src/client.cpp";
+			name = "client.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		09171191F111856D6E758F8B = {
+			fileRef = "6672A7B297A145A34D6686B9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4842978467553FF51D6ADE63 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/src/contact.cpp";
+			name = "contact.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EC5544F20A8A565EEA61E0F9 = {
+			fileRef = "4842978467553FF51D6ADE63";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		57A0BBFECB3659808736B354 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/src/contactManager.cpp";
+			name = "contactManager.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		11C7E53D2A6FED8FF574711C = {
+			fileRef = "57A0BBFECB3659808736B354";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A2B193263F7A9E87956FFA11 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/src/conversation.cpp";
+			name = "conversation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		319ED2FB7E17C1EAD920140A = {
+			fileRef = "A2B193263F7A9E87956FFA11";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C3A2C5BB49847E404C5DBC91 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/src/conversationManager.cpp";
+			name = "conversationManager.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6FF5B197E0F62592C7DD7925 = {
+			fileRef = "C3A2C5BB49847E404C5DBC91";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E33419B35A6BA35E5469026A = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/CNetwork/QNetwork.cpp";
+			name = "QNetwork.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		602CE180D8FB321AA0908FA2 = {
+			fileRef = "E33419B35A6BA35E5469026A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		56E6E9E0FEA456D2141588D2 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/Audio/OCompress.cpp";
+			name = "OCompress.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9C5CC157A736F7406B0C0597 = {
+			fileRef = "56E6E9E0FEA456D2141588D2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1DF158722B4636A4CE821438 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/Audio/PAudio.cpp";
+			name = "PAudio.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B90FCDA800CF34F1268CF7AD = {
+			fileRef = "1DF158722B4636A4CE821438";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C3F578D55549C77C0D58FAE7 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/GUI/mainwidget.cpp";
+			name = "mainwidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		43F1426EF6422F0976B08968 = {
+			fileRef = "C3F578D55549C77C0D58FAE7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		81A3B6ABA607D56AA3F0A5C7 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/GUI/login.cpp";
+			name = "login.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C98C30BCE7B11F838D2E4248 = {
+			fileRef = "81A3B6ABA607D56AA3F0A5C7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F4D7BC656A09991E20172860 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/src/execCmd.cpp";
+			name = "execCmd.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6648228369230CB51924C2C3 = {
+			fileRef = "F4D7BC656A09991E20172860";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		626E44179D509E3DF540A8D5 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/src/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		35EEE64986565B2349FB313D = {
+			fileRef = "626E44179D509E3DF540A8D5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		205E255923E4ADCEECE11FBF = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/client_plugin_import.cpp";
+			name = "client_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F5B748F95390444B17A75DB4 = {
+			fileRef = "205E255923E4ADCEECE11FBF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FE9A7A8D64467AA8D6CC29EC = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/moc_QNetwork.cpp";
+			name = "moc_QNetwork.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4EB5F02CA2B2E43C3AD8505E = {
+			fileRef = "FE9A7A8D64467AA8D6CC29EC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9C9F56DD7EB9638B7FFC882F = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/moc_mainwidget.cpp";
+			name = "moc_mainwidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F6A0DDD708AA6C1B229BC591 = {
+			fileRef = "9C9F56DD7EB9638B7FFC882F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9C42EA42EBE626D663DAEA85 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/moc_login.cpp";
+			name = "moc_login.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DFF8924EAEBF5A652E9492D0 = {
+			fileRef = "9C42EA42EBE626D663DAEA85";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1C540B93EE582E9C859A86E9 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/ui_form.h";
+			name = "ui_form.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8149DBAEA0C4A59B74FB8B19 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/ui_login.h";
+			name = "ui_login.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B283D9C89ED2CA0270AB9BB9 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/includes/client.hh";
+			name = "client.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6B1D6B38BB5A66CC35B3E047 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/includes/contact.hh";
+			name = "contact.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		963480A21480902D07142E7C = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/includes/contactManager.hh";
+			name = "contactManager.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D9B22E339434B7555EC8BED2 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/includes/conversation.hh";
+			name = "conversation.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E64CB3B0AD8EFCCF519B5849 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/includes/conversationManager.hh";
+			name = "conversationManager.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4F5A478B88C0E832ABD697EB = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/includes/execCmd.hh";
+			name = "execCmd.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0D6E38CC276A7C4ADA1B62E3 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/interface/ICNetwork.hh";
+			name = "ICNetwork.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1A722CA0334FB1D97D66521A = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/interface/ICompress.hh";
+			name = "ICompress.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E60566F8BE367E148EA40417 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/interface/IMainWidget.hh";
+			name = "IMainWidget.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FDA5974911DD258AE0F4CDD4 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/interface/ILogin.hh";
+			name = "ILogin.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		964D37714A29DF3AF1D818E5 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/includes/QNetwork.hh";
+			name = "QNetwork.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D07ED4DF92140B3C08381C18 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/includes/OCompress.hh";
+			name = "OCompress.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		059339C2C678771A740B59AC = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/includes/mainwidget.h";
+			name = "mainwidget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EE0BC623861EADCB3DD97271 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/API/includes/login.h";
+			name = "login.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3EABABDB3C51ACB4C6F781C4 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/client.pro";
+			name = "client.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		A2808BBC96DDC5495AFF3FB2 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		F1BB58A14B0CED2382387097 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/client.pro";
+			name = "client.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		5E0DD874C21FEF14D799E04F = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/interface/form.ui";
+			name = "form.ui";
+			sourceTree = "<absolute>";
+		};
+		CFFA81BD6C7DDDEA5736D947 = {
+			fileRef = "5E0DD874C21FEF14D799E04F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		44D896F052EE7E7711A135F1 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/client/interface/login.ui";
+			name = "login.ui";
+			sourceTree = "<absolute>";
+		};
+		AB44C4DBAEB11726DABBDD5E = {
+			fileRef = "44D896F052EE7E7711A135F1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"FE9A7A8D64467AA8D6CC29EC",
+				"9C9F56DD7EB9638B7FFC882F",
+				"9C42EA42EBE626D663DAEA85",
+				"1C540B93EE582E9C859A86E9",
+				"8149DBAEA0C4A59B74FB8B19");
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		6E4FEE5B6720F162C28655BC = {
+			isa = PBXGroup;
+			children = (
+				"5E0DD874C21FEF14D799E04F",
+				"44D896F052EE7E7711A135F1");
+			name = "interface";
+			sourceTree = "<Group>";
+		};
+		A421335C8E6C32BFBF593B42 = {
+			isa = PBXGroup;
+			children = (
+				"B283D9C89ED2CA0270AB9BB9",
+				"6B1D6B38BB5A66CC35B3E047",
+				"963480A21480902D07142E7C",
+				"D9B22E339434B7555EC8BED2",
+				"E64CB3B0AD8EFCCF519B5849",
+				"4F5A478B88C0E832ABD697EB");
+			name = "includes";
+			sourceTree = "<Group>";
+		};
+		921315FAA7F261D737F4F4C7 = {
+			isa = PBXGroup;
+			children = (
+				"6672A7B297A145A34D6686B9",
+				"4842978467553FF51D6ADE63",
+				"57A0BBFECB3659808736B354",
+				"A2B193263F7A9E87956FFA11",
+				"C3A2C5BB49847E404C5DBC91",
+				"F4D7BC656A09991E20172860",
+				"626E44179D509E3DF540A8D5");
+			name = "src";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"921315FAA7F261D737F4F4C7",
+				"E33419B35A6BA35E5469026A",
+				"56E6E9E0FEA456D2141588D2",
+				"1DF158722B4636A4CE821438",
+				"C3F578D55549C77C0D58FAE7",
+				"81A3B6ABA607D56AA3F0A5C7",
+				"205E255923E4ADCEECE11FBF",
+				"A421335C8E6C32BFBF593B42",
+				"0D6E38CC276A7C4ADA1B62E3",
+				"1A722CA0334FB1D97D66521A",
+				"E60566F8BE367E148EA40417",
+				"FDA5974911DD258AE0F4CDD4",
+				"964D37714A29DF3AF1D818E5",
+				"D07ED4DF92140B3C08381C18",
+				"059339C2C678771A740B59AC",
+				"EE0BC623861EADCB3DD97271");
+			name = "Sources";
+			sourceTree = "<Group>";
+		};
+		12E908B8A1C3C07C115504F5 = {
+			isa = PBXGroup;
+			children = (
+				"6E4FEE5B6720F162C28655BC");
+			name = "Sources [uic]";
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"3EABABDB3C51ACB4C6F781C4",
+				"A2808BBC96DDC5495AFF3FB2",
+				"F1BB58A14B0CED2382387097");
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/ -f client.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"09171191F111856D6E758F8B",
+				"EC5544F20A8A565EEA61E0F9",
+				"11C7E53D2A6FED8FF574711C",
+				"319ED2FB7E17C1EAD920140A",
+				"6FF5B197E0F62592C7DD7925",
+				"602CE180D8FB321AA0908FA2",
+				"9C5CC157A736F7406B0C0597",
+				"B90FCDA800CF34F1268CF7AD",
+				"43F1426EF6422F0976B08968",
+				"C98C30BCE7B11F838D2E4248",
+				"6648228369230CB51924C2C3",
+				"35EEE64986565B2349FB313D",
+				"F5B748F95390444B17A75DB4",
+				"4EB5F02CA2B2E43C3AD8505E",
+				"F6A0DDD708AA6C1B229BC591",
+				"DFF8924EAEBF5A652E9492D0");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		AC68CA4D4C83FE705A64F249 = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E30916F8308B8C422457701E = {
+			fileRef = "AC68CA4D4C83FE705A64F249";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FC5B3335E19042FA75819234 = {
+			isa = PBXFileReference;
+			name = "Qt5PlatformSupport";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libQt5PlatformSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9A6485FFFC475C413705E031 = {
+			fileRef = "FC5B3335E19042FA75819234";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F9A6EB81F92A7DFA6A6167B5 = {
+			isa = PBXFileReference;
+			name = "Qt5DBus";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libQt5DBus$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1BD81F103421C4B4461B3D0B = {
+			fileRef = "F9A6EB81F92A7DFA6A6167B5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8E05CA8DF74098BB0F1424EC = {
+			isa = PBXFileReference;
+			name = "Qt5Widgets";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		80D4E9C4E229851DD5FED4F1 = {
+			fileRef = "8E05CA8DF74098BB0F1424EC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FF5BDAB0076F3391B219EA52 = {
+			isa = PBXFileReference;
+			name = "SystemConfiguration.framework";
+			path = "/System/Library/Frameworks/SystemConfiguration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		D4639595C3BCF2A39D88DF6E = {
+			fileRef = "FF5BDAB0076F3391B219EA52";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		740F692D13C9073535B35E60 = {
+			isa = PBXFileReference;
+			name = "qdds";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqdds$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DE19E55BAB43F68C37048624 = {
+			fileRef = "740F692D13C9073535B35E60";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		15593D8D075AEEA75745DA3E = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		62AABD6643ED5AFE805168C2 = {
+			fileRef = "15593D8D075AEEA75745DA3E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3658EE231CCEBE598D832CC3 = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1639AF4A538179118666DBF6 = {
+			fileRef = "3658EE231CCEBE598D832CC3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E38A59480890AF01109A60D3 = {
+			isa = PBXFileReference;
+			name = "qjp2";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqjp2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C3150C3CB3838C27A3C85AA6 = {
+			fileRef = "E38A59480890AF01109A60D3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		28464BC12956B11F420439D4 = {
+			isa = PBXFileReference;
+			name = "qmng";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqmng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A55E26F965E3D2807AF7ED04 = {
+			fileRef = "28464BC12956B11F420439D4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01CE5B0269C01C6B6C41EDAA = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9335420E0FD6151ADA96BFEB = {
+			fileRef = "01CE5B0269C01C6B6C41EDAA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		928F690678CAF1B94267A1DB = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3083BA12C230DE1449EEA0A9 = {
+			fileRef = "928F690678CAF1B94267A1DB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		25C48EEDDBA3DFF771381451 = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AC92B22A2B673966DDF8A3A8 = {
+			fileRef = "25C48EEDDBA3DFF771381451";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E5FFDA44BDAC0C58592DE132 = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C02B62DA2F74E87023E1D85A = {
+			fileRef = "E5FFDA44BDAC0C58592DE132";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		87EB77D697895AC9FA438AD0 = {
+			isa = PBXFileReference;
+			name = "qtharfbuzzng";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libqtharfbuzzng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E30DE5AD39B137DA341DA168 = {
+			fileRef = "87EB77D697895AC9FA438AD0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4365BEB797B084DE87F87FD6 = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/Alex/Qt/5.5/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4717AB3BBF3AA8F53BAD1C8D = {
+			fileRef = "4365BEB797B084DE87F87FD6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BB70546620CD9F05AEF778C9 = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		FE3FB77C0173D0766244C4D5 = {
+			fileRef = "BB70546620CD9F05AEF778C9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6CEEC5ED192E5B91733A7D67 = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		328FAEA6783E3452BC9006E3 = {
+			fileRef = "6CEEC5ED192E5B91733A7D67";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FEDBF5AB168FD7AB63FEAA77 = {
+			isa = PBXFileReference;
+			name = "qtpcre";
+			path = "/Users/Alex/Qt/5.5/ios/lib/libqtpcre$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		469BFFAD73BC1250C313680C = {
+			fileRef = "FEDBF5AB168FD7AB63FEAA77";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3DA90DAE39A0C9D07C6F6B0F = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			inputPaths = (
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/armv7/",
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/arm64/",
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/i386/",
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/x86_64/");
+			outputPaths = (
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_armv7)",
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_arm64)",
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_i386)",
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_x86_64)");
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Prelink";
+			shellPath = "/bin/sh";
+			shellScript = "/Users/Alex/Qt/5.5/ios/mkspecs/macx-ios-clang/rename_main.sh \"${OBJECT_FILE_DIR}-${CURRENT_VARIANT}\" \"${ARCHS}\"";
+			showEnvVarsInLog = "0";
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"AC68CA4D4C83FE705A64F249",
+				"FCC237CA5AD60B9BA4447615",
+				"7EC00404ACD5AB0E97726B0E",
+				"4D765E1B1EA6C757220C63E7",
+				"7D7B02101166B76FD2D4F8B4",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"FC5B3335E19042FA75819234",
+				"F9A6EB81F92A7DFA6A6167B5",
+				"8E05CA8DF74098BB0F1424EC",
+				"205259EEEE2BADA5E64741E3",
+				"FF5BDAB0076F3391B219EA52",
+				"740F692D13C9073535B35E60",
+				"15593D8D075AEEA75745DA3E",
+				"3658EE231CCEBE598D832CC3",
+				"E38A59480890AF01109A60D3",
+				"28464BC12956B11F420439D4",
+				"01CE5B0269C01C6B6C41EDAA",
+				"928F690678CAF1B94267A1DB",
+				"25C48EEDDBA3DFF771381451",
+				"E5FFDA44BDAC0C58592DE132",
+				"87EB77D697895AC9FA438AD0",
+				"4365BEB797B084DE87F87FD6",
+				"BB70546620CD9F05AEF778C9",
+				"6CEEC5ED192E5B91733A7D67",
+				"FEDBF5AB168FD7AB63FEAA77");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<Group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"E30916F8308B8C422457701E",
+				"F26454630C80841CBDCFE1CA",
+				"B460F624007324313696BE86",
+				"F8B465CE34D8DF87AAE95913",
+				"2B02D9DC58A01E45248DDBCE",
+				"0CE02722F00CAD43741297B5",
+				"9A6485FFFC475C413705E031",
+				"1BD81F103421C4B4461B3D0B",
+				"80D4E9C4E229851DD5FED4F1",
+				"15364689D2AB5A30E87A689F",
+				"D4639595C3BCF2A39D88DF6E",
+				"DE19E55BAB43F68C37048624",
+				"62AABD6643ED5AFE805168C2",
+				"1639AF4A538179118666DBF6",
+				"C3150C3CB3838C27A3C85AA6",
+				"A55E26F965E3D2807AF7ED04",
+				"9335420E0FD6151ADA96BFEB",
+				"3083BA12C230DE1449EEA0A9",
+				"AC92B22A2B673966DDF8A3A8",
+				"C02B62DA2F74E87023E1D85A",
+				"E30DE5AD39B137DA341DA168",
+				"4717AB3BBF3AA8F53BAD1C8D",
+				"FE3FB77C0173D0766244C4D5",
+				"328FAEA6783E3452BC9006E3",
+				"469BFFAD73BC1250C313680C");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		3E0C2E2CEEB6BA1BD610C9D3 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/client.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		E291631F8EBECF3B2168F552 = {
+			fileRef = "3E0C2E2CEEB6BA1BD610C9D3";
+			isa = PBXBuildFile;
+		};
+		531CA4C5AAC9AAB70D693D51 = {
+			isa = PBXFileReference;
+			path = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/client.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		79A5FE68EA716BBABDDB254E = {
+			fileRef = "531CA4C5AAC9AAB70D693D51";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"3E0C2E2CEEB6BA1BD610C9D3",
+				"531CA4C5AAC9AAB70D693D51");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<Group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"E291631F8EBECF3B2168F552",
+				"79A5FE68EA716BBABDDB254E");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		0E2198A5954D09133ADCB0B0 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "client.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"0E2198A5954D09133ADCB0B0");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"12E908B8A1C3C07C115504F5",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "client";
+			sourceTree = "<Group>";
+		};
+		11729B3E8E73C4B18C2C2163 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		828A7E0CECC9B813C4D6F467 = {
+			isa = PBXTargetDependency;
+			target = "11729B3E8E73C4B18C2C2163";
+		};
+		E2FC149E0332ED51C288AB8C = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"3DA90DAE39A0C9D07C6F6B0F",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"828A7E0CECC9B813C4D6F467");
+			productReference = "0E2198A5954D09133ADCB0B0";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "client";
+			productName = "client";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "client";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "5.1.1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../client",
+					".",
+					"/Users/Alex/Qt/5.5/ios/mkspecs/macx-ios-clang/ios",
+					"../client/includes",
+					"../API/includes",
+					"../API/interface",
+					"./lib/opus/include/",
+					"../../Qt/5.5/ios/include",
+					"../../Qt/5.5/ios/include/QtWidgets",
+					"../../Qt/5.5/ios/include/QtGui",
+					"../../Qt/5.5/ios/include/QtNetwork",
+					"../../Qt/5.5/ios/include/QtCore",
+					".",
+					".",
+					"../../Qt/5.5/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"./lib/opus",
+					"./lib/portaudio",
+					"/Users/Alex/Qt/5.5/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/Alex/Qt/5.5/ios/lib",
+					"/Users/Alex/Qt/5.5/ios/plugins/imageformats",
+					"/Users/Alex/Qt/5.5/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-g",
+					"-g3",
+					"-ggdb3",
+					"-g",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-L./lib/opus",
+						"-lopus",
+						"-L./lib/portaudio",
+						"-lportaudio",
+						"-L/Users/Alex/Qt/5.5/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/Alex/Qt/5.5/ios/lib",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/Alex/Qt/5.5/ios/plugins/imageformats",
+						"-L/Users/Alex/Qt/5.5/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "client";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "client";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "client";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/Alex/cpp_babel/build-client-iphoneos_clang_Qt_5_5_0_for_iOS-Debug/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "5.1.1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../client",
+					".",
+					"/Users/Alex/Qt/5.5/ios/mkspecs/macx-ios-clang/ios",
+					"../client/includes",
+					"../API/includes",
+					"../API/interface",
+					"./lib/opus/include/",
+					"../../Qt/5.5/ios/include",
+					"../../Qt/5.5/ios/include/QtWidgets",
+					"../../Qt/5.5/ios/include/QtGui",
+					"../../Qt/5.5/ios/include/QtNetwork",
+					"../../Qt/5.5/ios/include/QtCore",
+					".",
+					".",
+					"../../Qt/5.5/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"./lib/opus",
+					"./lib/portaudio",
+					"/Users/Alex/Qt/5.5/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/Alex/Qt/5.5/ios/lib",
+					"/Users/Alex/Qt/5.5/ios/plugins/imageformats",
+					"/Users/Alex/Qt/5.5/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-g",
+					"-g3",
+					"-ggdb3",
+					"-g",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-L./lib/opus",
+						"-lopus",
+						"-L./lib/portaudio",
+						"-lportaudio",
+						"-L/Users/Alex/Qt/5.5/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/Alex/Qt/5.5/ios/lib",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/Alex/Qt/5.5/ios/plugins/imageformats",
+						"-L/Users/Alex/Qt/5.5/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "client";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "client";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"E2FC149E0332ED51C288AB8C",
+				"11729B3E8E73C4B18C2C2163");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

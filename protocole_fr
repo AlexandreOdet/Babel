@@ -1,0 +1,124 @@
+I - SYNTAXE
+
+  a - Commande
+      - COMMAND_NAME  : arg1 , arg2...          / retour
+
+  b - Arguments
+     !   = Pas obligatoire
+    { }  = Tableau de taille 1 a x
+     |   = "ou"
+
+II - COMMANDES
+
+  a - Client vers serveur:
+      - CONNECT       : Name, Pass              / 200 (true) - 4xx
+      - REGISTER      : Name, Pass              / 200 (true) - 4xx
+      - UPDATE        : Name, TYPE, new, old    / 200 (true) - 4xx
+      - ADD           : Name                    / 180 (wait)
+      - LIST_FRIENDS  : !{FRIENDS, ...}
+      - LIST_CHANNELS : !{CHANNELS, ...}
+      - STATUS        : status
+      - QUIT
+      - JOIN          : client | channel        / 200 (true) - 4xx
+      - CALL          : Name                    / 200 (true) - 4xx
+      - SEND          : {Name | Channel, ...}, MESSAGE
+
+  b - Serveur vers client :
+      - ASK           : Name                    / OK - KO
+      - REPLY         : NAME
+
+  c - Client vers client :
+      - ACK (start)
+      - CANCEL (ko)
+      - BYE
+
+III - Détails
+
+  1  - CONNECT
+
+    Connecte le client au serveur.
+
+  2  - REGISTER
+
+    Crée un nouveau compte.
+
+  3  - UPDATE
+
+    Met à jour les données de l'utilisateur.
+
+  4  - ADD
+
+    Ajoute un ami.
+
+  5  - LIST_FRIENDS
+
+    Afficher la liste des contacts avec leurs infos.
+    Possibilités d'afficher les informations d'un ou plusieurs contact(s).
+
+  6  - LIST_CHANNELS
+
+    Afficher la liste des channels sur lesquels l'utilisateur peut se connecter avec des infos.
+    Possibilités d'afficher les informations d'un ou plusieurs channel(s).
+
+  7  - STATUS
+
+    Envoie au serveur le changement de statut.
+
+  8  - QUIT
+
+    Quitte le serveur.
+
+  9  - JOIN
+
+    Demande à joindre un client.
+
+  10 - CALL
+
+    Demande la création d'une session.
+
+  11 - SEND
+
+    Envoie un message texte à un ou plusieurs utilisateur(s).
+
+  12 - MICRO
+
+    Coupe le micro.
+
+  13 - SOUND
+
+    Coupe le son.
+
+  14 - ASK
+
+    Le serveur demande à un client B s'il accepte la demande d'ajout du client A.
+    Commande généré par le serveur suite à la commande ADD(4).
+
+  15 - REPLY
+
+    Le serveur envoie un message au client A pour indiquer la réponse du client B.
+    Commande généré par le serveur suite à la commande ASK(12).
+
+  16 - ACK (start)
+
+    Confirme la création d'une session.
+
+  17 - CANCEL (ko)
+
+    Refuse la création d'une session. Peut-être causé par un timeout.
+
+  18 - BYE
+
+    Quitte une session.
+
+
+IV - Errors
+
+  100 - Attend
+  180 - Sonnerie
+  200 - Ok
+  401 - Non autorisé
+  404 - Pas trouvé
+  408 - Temps écoulé
+  418 - Je suis une théière
+  486 - Occupé
+  500 - Erreur interne du serveur

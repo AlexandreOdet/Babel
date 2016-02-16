@@ -1,0 +1,71 @@
+﻿Build started 05/11/2015 17:46:51.
+     1>Project "C:\Users\Odet Alexandre\Desktop\tmp\Babel\babel_s_w.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (babel_c_w.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt api\snetwork\BoostNetwork.cpp api\userdb\UserDB.cpp server\src\Channel.cpp server\src\ChannelManager.cpp server\src\Client.cpp server\src\main.cpp server\src\PrivateManager.cpp server\src\Proxy.cpp server\src\Response.cpp server\src\Server.cpp server\src\Status.cpp server\src\UserInformation.cpp
+         UserInformation.cpp
+         Status.cpp
+         Server.cpp
+     1>C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(227): warning C4005: 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT': macro redefinition
+         C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(213): note: see previous definition of 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT'
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         Response.cpp
+         Proxy.cpp
+     1>C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(227): warning C4005: 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT': macro redefinition
+         C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(213): note: see previous definition of 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT'
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         PrivateManager.cpp
+         main.cpp
+     1>C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(227): warning C4005: 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT': macro redefinition
+         C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(213): note: see previous definition of 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT'
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         Client.cpp
+     1>C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(227): warning C4005: 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT': macro redefinition
+         C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(213): note: see previous definition of 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT'
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         ChannelManager.cpp
+         Channel.cpp
+         UserDB.cpp
+         BoostNetwork.cpp
+     1>C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(227): warning C4005: 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT': macro redefinition
+         C:\Users\Odet Alexandre\Downloads\boost_1_59_0\boost_1_59_0\boost/asio/detail/config.hpp(213): note: see previous definition of 'BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT'
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         Generating Code...
+     1>c:\users\odet alexandre\downloads\boost_1_59_0\boost_1_59_0\boost\property_tree\detail\json_parser\standard_callbacks.hpp(132): warning C4715: 'boost::property_tree::json_parser::detail::standard_callbacks<boost::property_tree::basic_ptree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::new_tree': not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\babel_s_w.res" babel_s_w.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Odet Alexandre\Desktop\tmp\Babel\babel_s_w.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Odet Alexandre\Desktop\tmp\Babel\babel_s_w.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Odet Alexandre\Desktop\tmp\Babel\babel_s_w.lib" /MACHINE:X86 Debug\babel_s_w.res
+         Debug\BoostNetwork.obj
+         Debug\UserDB.obj
+         Debug\Channel.obj
+         Debug\ChannelManager.obj
+         Debug\Client.obj
+         Debug\main.obj
+         Debug\PrivateManager.obj
+         Debug\Proxy.obj
+         Debug\Response.obj
+         Debug\Server.obj
+         Debug\Status.obj
+         Debug\UserInformation.obj
+         babel_s_w.vcxproj -> C:\Users\Odet Alexandre\Desktop\tmp\Babel\babel_s_w.exe
+     1>Done Building Project "C:\Users\Odet Alexandre\Desktop\tmp\Babel\babel_s_w.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.48
